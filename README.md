@@ -1,28 +1,31 @@
-# Android Project 2 - *Wishlist App*
+# Android Project 4 - *Flixster Plus 2*
 
 Submitted by: **Mi'Angel Sewer**
 
-**Wishlist App** is a wishlist app that helps the user keep track of what they want to buy.
+**Flixster Plus 2 app** is a tv show browsing app that allows users to browse ... [TODO] 
 
-Time spent: **21** hours spent in total
+Time spent: **36** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **User can add an item to their wishlist**
-- [x] **User can see their list of items based on previously inputted items**
+- [x] **Choose any endpoint on The MovieDB API except `now_playing`**
+  - Chosen Endpoint: `[TODO: FILL ME IN TO GET CREDIT]`
+- [x] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
+- [x] **Use Glide to load and display at least one image per entry**
+- [x] **Click on an entry to view specific details about that entry using Intents**
 
-The following **optional** features are implemented:
+The following **additional** features are implemented:
 
-- [x] Wishlist app is 🎨 **customized** 🎨
-
+- [x] List anything else that you can get done to improve the app functionality!
+- [x] the layout is horizontal 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 <p align="center">
-  <img src="https://i.imgflip.com/a5meea.gif" alt="Video Walkthrough" style="max-width:100; height:auto;" />
+  <img src="https://i.imgflip.com/a7bejm.gif" alt="Video Walkthrough" style="max-width:100; height:auto;" />
 </p>
 
 GIF created with Imgflip 

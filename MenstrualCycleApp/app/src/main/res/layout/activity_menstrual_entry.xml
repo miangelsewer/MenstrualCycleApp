@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Your Cycle Entry"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#800080"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Start Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date"
+            android:textSize="16sp"
+            android:textColor="#800080" />
+        <EditText
+            android:id="@+id/editStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MM/DD/YYYY"
+            android:inputType="date"
+            android:backgroundTint="#DA70D6"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Cycle Length -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cycle Length (days)"
+            android:textSize="16sp"
+            android:textColor="#800080" />
+        <EditText
+            android:id="@+id/editCycleLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 28"
+            android:inputType="number"
+            android:backgroundTint="#DA70D6"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Flow Level -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flow Level"
+            android:textSize="16sp"
+            android:textColor="#800080" />
+        <Spinner
+            android:id="@+id/spinnerFlowLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Symptoms -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symptoms"
+            android:textSize="16sp"
+            android:textColor="#800080" />
+        <EditText
+            android:id="@+id/editSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. cramps, fatigue, mood swings"
+            android:backgroundTint="#DA70D6"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Notes -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes (optional)"
+            android:textSize="16sp"
+            android:textColor="#800080" />
+        <EditText
+            android:id="@+id/editNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Any thoughts or observations"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:backgroundTint="#DA70D6"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Entry"
+            android:backgroundTint="#DA70D6"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

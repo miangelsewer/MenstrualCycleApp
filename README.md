@@ -1,31 +1,27 @@
-# Android Project 4 - *Flixster Plus 2*
+# Android Project 5 - *Menstrual Cycle Tracker*
 
 Submitted by: **Mi'Angel Sewer**
 
-**Flixster Plus 2 app** is a tv show browsing app that allows users to browse ... [TODO] 
+**Menstrual Cycle Tracker app** is an app that allows users to track their menstrual cycle and view and scroll through their past entries.
 
-Time spent: **36** hours spent in total
+Time spent: **23** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
-
-- [x] **Choose any endpoint on The MovieDB API except `now_playing`**
-  - Chosen Endpoint: `[TODO: FILL ME IN TO GET CREDIT]`
-- [x] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
-- [x] **Use Glide to load and display at least one image per entry**
-- [x] **Click on an entry to view specific details about that entry using Intents**
+- [x] **There is a "create entry" UI that prompts users to make their daily entry**
+- [x] **At least one health metric is tracked (based on user input)**
+- [x] **New entries are saved in a database and then updated in the RecyclerView**
+- [x] **On application restart, previously entered entries are preserved (i.e., are persistent)**
 
 The following **additional** features are implemented:
-
-- [x] List anything else that you can get done to improve the app functionality!
-- [x] the layout is horizontal 
+- [x] Improve and customize the user interface through styling and coloring
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 <p align="center">
-  <img src="https://i.imgflip.com/a7bejm.gif" alt="Video Walkthrough" style="max-width:100; height:auto;" />
+  <img src="https://i.imgflip.com/a7y25v.gif" alt="Video Walkthrough" style="max-width:100%; height:auto;" />
 </p>
 
 GIF created with Imgflip 
